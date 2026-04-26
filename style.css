@@ -93,3 +93,16 @@ a {
 .btn:hover {
   background-color: var(--couleur-bouton);
 }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  section {
+    margin: 20px 10px;
+    padding: 20px 15px;
+  }
+}
